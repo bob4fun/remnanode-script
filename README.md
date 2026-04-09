@@ -31,6 +31,39 @@ An automated installer script for deploying RemnaNode on Ubuntu Linux. The scrip
 ### Тестирование / Testing
 ✅ Проверено на / Tested on: **Ubuntu 24.04 LTS**
 
+```
+
+## Запуск прямо с GitHub / Run Directly from GitHub
+
+### РУ
+Можно запустить скрипт напрямую с GitHub без предварительного скачивания:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bob4fun/remnanode-script/main/remnanode-install.sh | sudo bash
+```
+
+Если хотите сначала скачать файл и проверить перед запуском:
+
+```bash
+curl -fsSL -o remnanode-install.sh https://raw.githubusercontent.com/bob4fun/remnanode-script/main/remnanode-install.sh
+chmod +x remnanode-install.sh
+sudo ./remnanode-install.sh
+```
+
+### EN
+You can run the script directly from GitHub without downloading it first:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bob4fun/remnanode-script/main/remnanode-install.sh | sudo bash
+```
+
+If you prefer to download and verify the file first:
+
+```bash
+curl -fsSL -o remnanode-install.sh https://raw.githubusercontent.com/bob4fun/remnanode-script/main/remnanode-install.sh
+chmod +x remnanode-install.sh
+sudo ./remnanode-install.sh
+
 ---
 
 ## Что делает скрипт / What the Script Does
@@ -91,6 +124,7 @@ Choose language / Выберите язык:
 
 Введите SECRET_KEY для RemnaNode:
 your_secret_key_here
+
 ```
 
 ---
